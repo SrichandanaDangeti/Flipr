@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+</head>
+<style>
+
+<!--/*
+top navbar
+ul {
+  list-style-type: none;
+  margin: -6.5px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}-->
+
+/*login register buttons*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*background image*/
+body{
+    background : url("file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/BGimage.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+} 
+</style>
+
+<!-- <ul>
+  <li><a href="#news">BSE Sensex</a></li>
+  <li><a href="#contact">Nifty 50</a></li>
+</ul> -->
+
+<h1 style="color: white; text-align: center;">The Stock Marketz</h1>
+<h3 style="color: white; text-align: center;" >Trade and Sell</h3><br><br><br><br>
+
+<div>
+	<h2 style = "color : white; text-align: center;">Already have an account?<br></h2>
+	<a href="Login.html" style="color: #663300;background-color: #ffffff;text-decoration: blink;">
+	<button class="button" style="vertical-align:middle"><span> Login </span></button></a>
+	<br><br><br><br>
+    <h2 style="color:white;text-align:center;"> New user? </h2><br>
+	<a href="Signup.html" style="color: #663300;background-color: #ffffff;text-decoration: blink;">
+	<button class="button" style="vertical-align:middle"><span> Register </span></button></a>
+	
+</div>
+</body>
+</html>

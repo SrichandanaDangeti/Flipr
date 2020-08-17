@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Profile</title>
+<style type="text/css">
+
+/*background image*/
+body{
+    background : url("file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/Dashboard.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+} 
+
+/*nifty dropdown*/
+.dropdown {
+  position: right;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: right;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: right;
+}
+
+/*BSE dropdown*/
+.dropdown {
+  position: right;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: right;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: right;
+}
+
+/*companies button*/
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*hover side bar*/
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 400px;
+  background-color: #4CAF50;
+}
+
+#history {
+  top: 450px;
+  background-color: #2196F3;
+}
+
+#news {
+  top: 500px;
+  background-color: #f44336;
+}
+
+#account {
+  top: 550px;
+  background-color: #555
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/searchicon.jpg');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+
+/*trade image*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the footer */
+.footer {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+}
+</style>
+</head>
+
+<form>
+  <input type="text" name="search" placeholder="Search">
+</form>
+
+<div class="dropdown" style="float:right;">
+  <img src="file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/PopupBar%20.jpg" alt="Popup" width="150" height="50">
+  <div class="dropdown-content">
+  <img src="file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/PopupBar%20.jpg" alt="Popup" width="300" height="300">
+  </div>
+</div>
+
+<div class="dropdown" style="float:left; padding: 25px;">
+  <button class="dropbtn">Companies</button>
+  <div class="dropdown-content" style="left:0;">
+  <a href="Reliance.html">Reliance</a>
+  <a href="Ashokleyland.html">Ashok Leyland</a>
+  <a href="Cipla.html">Cipla</a>
+  <a href="Tatasteel.html">Tata Steel</a>
+  <a href="Eichermotors.html">Eicher Motors</a>
+  </div>
+</div>
+    <h1 style="color: white; text-align: center;" >Trade</h1>
+    
+    <div class="dropdown" style="float: right;">
+  <img src="file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/BSE_LOGO.jpg" alt="BSE_LOGO" width="150" height="50">
+  <div class="dropdown-content">
+  <img src="file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/Sensex.jpg" alt="Sensex" width="400" height="600">
+  </div>
+</div>
+
+    <img src="file:///C:/Users/SriDharani/Desktop/Yeshvika/Hackathon/Mobile%20Application%20Task/Designs/Tradeimage.jpeg" alt="Tradeimage" style="width:50%">
+ <div id="mySidenav" class="sidenav">
+  <a href="About.html" id="about">About</a>
+  <a href="History.html" id="history">History</a>
+  <a href="News.html" id="news">News</a>
+  <a href="Account.html" id="account">Account</a>
+</div>
+<div class="footer">
+  <p style="color: white; text-align:center;">Contact Us @ <a href="#">www.StockMarketz.org</a></p>
+  <p style="color: white; text-align:center;">For any Issue reach to the above given link.</p>
+</div>
+</body>
+</html>
